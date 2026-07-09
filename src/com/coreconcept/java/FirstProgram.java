@@ -29,9 +29,25 @@ public class FirstProgram {
    
      
      
+     // Primitives
+     
+     int rollNO = 23;
+     char c = 'A';
+     String message = "Hello! Hey How are you?";
+     float h= 45.45f;
+     double  hello = 8.9;
+     long lg= 70_00_000; 
+     byte by =(byte) (567);
+     System.out.println(by);
      
      
+     //Type casting 
      
+     int value =(int)(67.85);
+     int two = (int)(574.675);
+     System.out.println(value);
+     System.out.println(two);
+ //    char check = (char)("Hello"); // y error show krega
      
 	}
 }
