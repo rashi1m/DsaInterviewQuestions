@@ -16,19 +16,22 @@ int num3 = sc.nextInt();
 System.out.println("Enter the fourth number ");
 int num4 = sc.nextInt();
 
-int large = num1;
-if(num2 > large){
- large = num2;
-}
-if (num3 > large) {
- large = num3;
-}
-if (num4 > large){
- large = num4;  
-}
-System.out.println(large);
+//int large = num1;
+//if(num2 > large){
+// large = num2;
+//}
+//if (num3 > large) {
+// large = num3;
+//}
+//if (num4 > large){
+// large = num4;  
+//}
+//System.out.println(large);
 
+int large =Math.max(num4 ,Math.max(num3,Math.max(num1, num2)));
+System.out.println("The largest value is "+large);
 }
+
 
 }
 
