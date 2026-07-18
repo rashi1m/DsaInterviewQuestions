@@ -15,6 +15,9 @@ public class PracticeFibbonacciSeries {
 		 firstNumber = secondNumber;
 		 secondNumber = nextNum;
 		 
+		 
+		 //using while loop 
+		 
 	 }
 		
 	}
