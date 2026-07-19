@@ -24,7 +24,15 @@ public class ConditionsAndLoops {
 //	   }  
 	
 		int firstNum =0, secondNum =1,nextNumber;
-		
+		int count =1;
+		while(count <= name) {
+			System.out.println(firstNum+", ");
+			nextNumber = firstNum + secondNum;
+			firstNum =secondNum;
+			secondNum = nextNumber;
+			count++;
+			
+		}
 		
 		
 		}
