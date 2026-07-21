@@ -58,6 +58,7 @@ public class PracticeCalculator {
 		}
 		else if(ch == '/') {
 		System.out.println(division(num1,num2));
+		
 		}else {
 			System.out.println("Invalid Operator");
 		}
